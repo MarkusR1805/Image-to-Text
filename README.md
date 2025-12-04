@@ -26,7 +26,7 @@ Kurze Projektbeschreibung.
 
 ![Image-to-Text](/bilder/Image-to-Text.png)
 
-# TabImageAnalyzer
+## Tab Image-to-Text
 
 **Lokale, visuelle KI-Analyse für Bilder – direkt auf deinem Mac. Keine Cloud, kein Tracking.**
 
