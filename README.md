@@ -209,9 +209,9 @@ Dieses Tool ist **ausschließlich für macOS** gedacht und nutzt:
   pip install PySide6 pillow
   ```
 
-![VisionLabeler](/bilder/VisionLabeler.png)
-
 ## Tab VisionLabeler
+
+![VisionLabeler](/bilder/VisionLabeler.png)
 
 **Automatisches Batch-Labeling von Bildern mit lokaler Vision-KI – 100 % offline, 100 % macOS.**
 
