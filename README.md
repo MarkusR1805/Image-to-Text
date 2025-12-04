@@ -1,6 +1,6 @@
 # Bilder und Prompt Toolbox
 
-![Beispielbild](/bilder/gguf-q8_00001.png)
+![Beispielbild](/bilder/bild1.png)
 
 ## Beschreibung
 
@@ -14,15 +14,18 @@ Kurze Projektbeschreibung.
 
 ## Beispiel-Tabelle
 
-| Name            | Typ                                  | Beschreibung             |
-| --------------- | ------------------------------------ | ------------------------ |
-| Image-to-Text   | Generiert Text durch ein Bild        | Vision-Modelle           |
-| Promptgenerator | Generiert einen Prompt aus Key-Words | LLM's und Vision-Modelle |
-| VisionLabeler   | Labelt Bild in einem Verzeichnis     | Vision-Modelle           |
+| Name              | Typ                                  | Beschreibung             |
+| ----------------- | ------------------------------------ | ------------------------ |
+| Image-to-Text     | Generiert Text durch ein Bild        | Vision-Modelle           |
+| Promptgenerator   | Generiert einen Prompt aus Key-Words | LLM's und Vision-Modelle |
+| RemoveBackground  | Bilder freistellen.                  | ONNX-Modelle             |
+| Iconset erstellen | Icons im ICNS-Format erstellen       | Mac interne Tools        |
+| VisionLabeler     | Labelt Bild in einem Verzeichnis     | Vision-Modelle           |
 
 ![Image-to-Text](/bilder/Image-to-Text.png)
 ![Promptgenerator](/bilder/Promptgenerator.png)
-![Promptgenerator](/bilder/Promptgenerator-2.png)
+![Promptgenerator](/bilder/Remove-BG.png)
+![Promptgenerator](/bilder/Iconset.png)
 ![VisionLabeler](/bilder/VisionLabeler.png)
 
 ## Installation
