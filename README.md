@@ -12,6 +12,8 @@ Kurze Projektbeschreibung.
 - Modelle lokal nutzen
 - Zugriff auf eine Vielzahl von Modellen
 
+![Features](/bilder/icon.png)
+
 ## Beispiel-Tabelle
 
 | Name              | Typ                                  | Beschreibung             |
@@ -23,6 +25,45 @@ Kurze Projektbeschreibung.
 | VisionLabeler     | Labelt Bild in einem Verzeichnis     | Vision-Modelle           |
 
 ![Image-to-Text](/bilder/Image-to-Text.png)
+
+# TabPromptgenerator
+
+**Ein lokaler, datenschutzfreundlicher Prompt-Generator für Ollama-Modelle – speziell entwickelt für macOS.**
+
+Mit dem **TabPromptgenerator** kannst du mühelos hochwertige Prompts für KI-Modelle von [Ollama](https://ollama.com/) erstellen – entweder basierend auf vordefinierten Anweisungen oder mit deinen eigenen, individuellen Eingaben. Alle Berechnungen laufen **lokal auf deinem Rechner**, ohne jegliche Cloud-Abhängigkeit.
+
+---
+
+## 🚀 Funktionen
+
+- **Lokale Generierung** mit beliebigen Ollama-Modellen (z. B. `llama3`, `mistral`, `phi3` etc.)
+- **Zwei Eingabemodi**:
+  - **Vordefinierte Anweisungen**: Wähle aus einer Liste und ergänze mit Stichworten.
+  - **Benutzerdefinierter Prompt**: Gib deinen eigenen vollständigen Prompt ein.
+- **Echtzeit-Vorschau & Bearbeitung**: Der generierte Prompt kann vor dem Speichern überarbeitet werden.
+- **Automatische Formatbereinigung** mittels integriertem `text_cleaner`.
+- **Speichern & Protokollierung**:
+  - Jeder Prompt wird mit Zeitstempel, Modell, Eingabe und Ergebnis in `promptgenerator.csv` gespeichert.
+  - Zudem wird er in einer `prompts.txt`-Datei angehängt – ideal für Archivierung oder Weiterverarbeitung.
+- **Ein-Klick-Zwischenablage**: Sofort in die Zwischenablage kopieren – mit visuellem Feedback.
+- **Komfortables UI**:
+  - Dunkles Design mit gut lesbarer Farbgestaltung.
+  - Responsive Schaltflächen mit Hover-Effekten.
+  - macOS-optimiertes Layout und Schriftskalierung.
+- **Ressourcenschonend**: Startet den Ollama-Server bei Bedarf und beendet überflüssige Prozesse automatisch.
+
+---
+
+## 🛠️ Voraussetzungen
+
+- **macOS** (primär entwickelt für macOS, läuft ggf. auch auf Linux/Windows)
+- **[Ollama](https://ollama.com/)** installiert und im `PATH` verfügbar
+- **Python 3.9+**
+- Erforderliche Python-Pakete:
+  ```bash
+  pip install PySide6 psutil
+  ```
+
 ![Promptgenerator](/bilder/Promptgenerator.png)
 ![Promptgenerator](/bilder/Remove-BG.png)
 ![Promptgenerator](/bilder/Iconset.png)
