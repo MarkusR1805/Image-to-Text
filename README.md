@@ -211,6 +211,43 @@ Dieses Tool ist **ausschließlich für macOS** gedacht und nutzt:
 
 ![VisionLabeler](/bilder/VisionLabeler.png)
 
+## Tab VisionLabeler
+
+**Automatisches Batch-Labeling von Bildern mit lokaler Vision-KI – 100 % offline, 100 % macOS.**
+
+Mit **VisionLabeler** generierst du **KI-basierte Beschreibungen für ganze Bildordner** – ideal für:
+
+- **Stable Diffusion-Trainingssätze**
+- **Bildarchivierung**
+- **Metadaten-Generierung**
+- **Prompt-Engineering auf Bestand**
+
+Alle Analysen laufen **lokal mit Ollama Vision-Modellen** (`llava`, `llama3.2-vision` etc.). **Kein Upload, kein Cloud-Dienst, keine Abhängigkeit vom Internet.**
+
+---
+
+## 📦 Hauptfunktionen
+
+- **Batch-Verarbeitung**: Analysiere **ganze Ordner** auf einmal – kein manuelles Klicken pro Bild
+- **Lokale Vision-KI**: Nutzt Ollamas **offline-fähige Modelle** wie `llava`, `llama3.2-vision`, `moondream` etc.
+- **Einheitliche Ausgabe**: Jedes Bild erhält eine passende `.txt`-Datei im selben Ordner (z. B. `urlaub_001.jpg` → `urlaub_001.txt`)
+- **Trigger-Wörter**: Füge vorangestellte Begriffe hinzu (z. B. `photorealistic, 8k, HDR`) – ideal für **Stable Diffusion-Prompts**
+- **Automatische Bereinigung**: Entfernt Anführungszeichen, unnötige Einleitungen und fügt einen Punkt am Ende hinzu
+- **Echtzeit-Protokoll**: Zeigt Fortschritt, Fehler und Erfolgsmeldungen live an
+- **Abbrechen jederzeit möglich**: Stoppe die Verarbeitung bei Bedarf – ohne Datenverlust
+
+---
+
+## 🛠️ Voraussetzungen
+
+- **macOS** (primär entwickelt für macOS, läuft ggf. auch auf Linux/Windows)
+- **[Ollama](https://ollama.com/)** mit mindestens einem **Vision-Modell** installiert
+  Beispiel:
+  ```bash
+  ollama pull llava
+  ollama pull llama3.2-vision
+  ```
+
 ## Installation
 
 ### Clone Repositorie
