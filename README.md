@@ -26,9 +26,48 @@ Kurze Projektbeschreibung.
 
 ![Image-to-Text](/bilder/Image-to-Text.png)
 
+# TabImageAnalyzer
+
+**Lokale, visuelle KI-Analyse für Bilder – direkt auf deinem Mac. Keine Cloud, kein Tracking.**
+
+Der **TabImageAnalyzer** nutzt Ollamas Vision-fähige Modelle (z. B. `llava`, `llama3.2-vision`) zur **lokalen Bildbeschreibung und -interpretation**. Ziehe einfach ein Bild per Drag & Drop in das Fenster, gib eine Anweisung ein – und erhalte innerhalb von Sekunden eine präzise, KI-generierte Beschreibung **ohne Internetverbindung**.
+
+---
+
+## 🖼️ Was kann das Tool?
+
+- **Bildanalyse mit lokaler KI**: Keine Daten verlassen deinen Rechner.
+- **Unterstützung aller Vision-Modelle** von Ollama:
+  - Automatische Erkennung installierter Modelle (`llava`, `bakllava`, `llama3.2-vision`, `moondream` etc.)
+  - Capability-basierte Erkennung neuer Vision-Modelle
+- **Flexible Anweisungen**:
+  - Wähle aus vordefinierten Prompts (`anweisungen.txt`)
+  - Oder gib eine eigene Anleitung ein – inklusive **Formatierungsfreiem Einfügen** per `⌥⇧⌘V`
+- **Interaktive Ergebnisbearbeitung**: Der generierte Text kann vor dem Speichern korrigiert werden.
+- **Automatischer Export**:
+  - Speichert jede Analyse als **Zeile in einer CSV-Datei** (Modell, Zeitstempel, Ergebnis)
+  - Hängt den Text außerdem an eine **TXT-Datei** an – ideal für Weiterverarbeitung
+- **macOS-optimiert**:
+  - Drag & Drop
+  - Zentriertes Fenster
+  - Große, gut lesbare Schrift
+  - Dunkles UI mit Kontrast für bessere Lesbarkeit
+
+---
+
+## 🛠️ Voraussetzungen
+
+- **macOS** (empfohlen – läuft ggf. auch auf Linux/Windows)
+- **[Ollama](https://ollama.com/)** installiert und im Systempfad
+- **Python 3.9+**
+- Benötigte Pakete:
+  ```bash
+  pip install PySide6 psutil ollama
+  ```
+
 ![Promptgenerator](/bilder/Promptgenerator.png)
 
-## TabPromptgenerator
+## Tab Promptgenerator
 
 **Ein lokaler, datenschutzfreundlicher Prompt-Generator für Ollama-Modelle – speziell entwickelt für macOS.**
 
