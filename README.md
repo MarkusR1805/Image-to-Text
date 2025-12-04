@@ -28,7 +28,7 @@ Kurze Projektbeschreibung.
 
 ![Promptgenerator](/bilder/Promptgenerator.png)
 
-# TabPromptgenerator
+## TabPromptgenerator
 
 **Ein lokaler, datenschutzfreundlicher Prompt-Generator für Ollama-Modelle – speziell entwickelt für macOS.**
 
