@@ -90,6 +90,7 @@ Mit dem **TabPromptgenerator** kannst du mühelos hochwertige Prompts für KI-Mo
 - **Speichern & Protokollierung**:
   - Jeder Prompt wird mit Zeitstempel, Modell, Eingabe und Ergebnis in `promptgenerator.csv` gespeichert.
   - Zudem wird er in einer `prompts.txt`-Datei angehängt – ideal für Archivierung oder Weiterverarbeitung.
+  - Beide Dateien können auch einen anderen Namen haben
 - **Ein-Klick-Zwischenablage**: Sofort in die Zwischenablage kopieren – mit visuellem Feedback.
 - **Komfortables UI**:
   - Dunkles Design mit gut lesbarer Farbgestaltung.
@@ -115,7 +116,7 @@ Mit dem **TabPromptgenerator** kannst du mühelos hochwertige Prompts für KI-Mo
 
 **Lokales Freistellen von Bildern – ohne Cloud, ohne Upload, ohne Kompromisse.**
 
-Mit **TabRemoveBG** entfernst du Hintergründe **vollständig offline** auf deinem Mac. Das Tool nutzt hochmoderne, lokal laufende KI-Modelle wie `birefnet`, `isnet` oder `u2net`, um Personen, Produkte oder Objekte blitzschnell freizustellen – **alle Daten bleiben auf deinem Gerät**.
+Mit **Tab RemoveBackground** entfernst du Hintergründe **vollständig offline** auf deinem Mac. Das Tool nutzt hochmoderne, lokal laufende KI-Modelle wie `birefnet`, `isnet` oder `u2net`, um Personen, Produkte oder Objekte blitzschnell freizustellen – **alle Daten bleiben auf deinem Gerät**.
 
 Ob Foto, Porträt, Produktbild oder Anime: Wähle das passende Modell, optimiere die Kanten und exportiere sofort als transparentes PNG.
 
@@ -135,7 +136,7 @@ Ob Foto, Porträt, Produktbild oder Anime: Wähle das passende Modell, optimiere
 - **Post-Processing**:
   - **Kantenverkleinerung** (Erosion) für präzise Haar- oder Fellstrukturen
   - **Weiche Übergänge** (Gaußscher Weichzeichner) für natürliche Transparenz
-- **Optionale Maskenspeicherung** – für Weiterverarbeitung in Photoshop, GIMP etc.
+- **Optionale Maskenspeicherung** – für Weiterverarbeitung in Photoshop, GIMP etc. (experimantell!)
 - **Interaktive Maskenbearbeitung** (nur bei SAM-Modell):
   - Malen mit **grünen (behält)** und **roten (entfernt)** Pinseln
   - Echtzeit-Vorschau über Originalbild
@@ -167,7 +168,7 @@ Ob Foto, Porträt, Produktbild oder Anime: Wähle das passende Modell, optimiere
 
 **Erstelle professionelle macOS-Iconsets – lokal, schnell und mit Drag & Drop.**
 
-Mit **TabCreateIconset** generierst du aus einem beliebigen Bild ein vollständiges `.iconset`-Verzeichnis **und eine fertige `.icns`-Datei** – direkt auf deinem Mac. Das Tool nutzt **native macOS-Technologie** (`iconutil`) für maximale Kompatibilität mit Finder, Dock, Apps und DMG-Installationen.
+Mit **Tab Iconset erstellen** generierst du aus einem beliebigen Bild ein vollständiges `.iconset`-Verzeichnis **und eine fertige `.icns`-Datei** – direkt auf deinem Mac. Das Tool nutzt **native macOS-Technologie** (`iconutil`) für maximale Kompatibilität mit Finder, Dock, Apps und DMG-Installationen.
 
 Kein Upload, kein Web-Service – alles läuft **100 % lokal**.
 
@@ -219,7 +220,7 @@ Dieses Tool ist **ausschließlich für macOS** gedacht und nutzt:
 
 **Automatisches Batch-Labeling von Bildern mit lokaler Vision-KI – 100 % offline, 100 % macOS.**
 
-Mit **VisionLabeler** generierst du **KI-basierte Beschreibungen für ganze Bildordner** – ideal für:
+Mit **Tab VisionLabeler** generierst du **KI-basierte Beschreibungen für ganze Bildordner** – ideal für:
 
 - **Stable Diffusion-Trainingssätze**
 - **Bildarchivierung**
