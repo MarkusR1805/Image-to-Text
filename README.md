@@ -24,9 +24,9 @@ Kurze Projektbeschreibung.
 | Iconset erstellen | Icons im ICNS-Format erstellen       | Mac interne Tools        |
 | VisionLabeler     | Labelt Bild in einem Verzeichnis     | Vision-Modelle           |
 
-![Image-to-Text](/bilder/Image-to-Text.png)
-
 ## Tab Image-to-Text
+
+![Image-to-Text](/bilder/Image-to-Text.png)
 
 **Lokale, visuelle KI-Analyse für Bilder – direkt auf deinem Mac. Keine Cloud, kein Tracking.**
 
@@ -65,9 +65,9 @@ Der **TabImageAnalyzer** nutzt Ollamas Vision-fähige Modelle (z. B. `llava`, 
   pip install PySide6 psutil ollama
   ```
 
-![Promptgenerator](/bilder/Promptgenerator.png)
-
 ## Tab Promptgenerator
+
+![Promptgenerator](/bilder/Promptgenerator.png)
 
 **Ein lokaler, datenschutzfreundlicher Prompt-Generator für Ollama-Modelle – speziell entwickelt für macOS.**
 
@@ -105,9 +105,9 @@ Mit dem **TabPromptgenerator** kannst du mühelos hochwertige Prompts für KI-Mo
   pip install PySide6 psutil
   ```
 
-![Promptgenerator](/bilder/Remove-BG.png)
-
 ## Tab RemoveBackground
+
+![Promptgenerator](/bilder/Remove-BG.png)
 
 **Lokales Freistellen von Bildern – ohne Cloud, ohne Upload, ohne Kompromisse.**
 
