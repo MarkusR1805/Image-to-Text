@@ -106,6 +106,57 @@ Mit dem **TabPromptgenerator** kannst du mühelos hochwertige Prompts für KI-Mo
   ```
 
 ![Promptgenerator](/bilder/Remove-BG.png)
+
+## Tab RemoveBackground
+
+**Lokales Freistellen von Bildern – ohne Cloud, ohne Upload, ohne Kompromisse.**
+
+Mit **TabRemoveBG** entfernst du Hintergründe **vollständig offline** auf deinem Mac. Das Tool nutzt hochmoderne, lokal laufende KI-Modelle wie `birefnet`, `isnet` oder `u2net`, um Personen, Produkte oder Objekte blitzschnell freizustellen – **alle Daten bleiben auf deinem Gerät**.
+
+Ob Foto, Porträt, Produktbild oder Anime: Wähle das passende Modell, optimiere die Kanten und exportiere sofort als transparentes PNG.
+
+---
+
+## ✂️ Hauptfunktionen
+
+- **100 % offline** – keine Internetverbindung nötig, kein Datentransfer
+- **12 spezialisierte KI-Modelle** für unterschiedliche Bildtypen:
+  - `birefnet-general-lite` – **Standardempfehlung**: schnell + hochwertig (2025)
+  - `birefnet-portrait` – perfekt für **Gesichter & Haare**
+  - `isnet-anime` – optimiert für **Cartoons & Zeichnungen**
+  - `birefnet-dis` – ideal für **Produktfotos**
+  - `sam` – universelles Segmentierungstool (Meta SAM) mit **manueller Maskenbearbeitung**
+- **Drag & Drop** – ziehe Bilder direkt ins Fenster
+- **Vorher/Nachher-Ansicht** – direkter visueller Vergleich
+- **Post-Processing**:
+  - **Kantenverkleinerung** (Erosion) für präzise Haar- oder Fellstrukturen
+  - **Weiche Übergänge** (Gaußscher Weichzeichner) für natürliche Transparenz
+- **Optionale Maskenspeicherung** – für Weiterverarbeitung in Photoshop, GIMP etc.
+- **Interaktive Maskenbearbeitung** (nur bei SAM-Modell):
+  - Malen mit **grünen (behält)** und **roten (entfernt)** Pinseln
+  - Echtzeit-Vorschau über Originalbild
+  - Pinselgröße anpassbar
+
+---
+
+## 🖼️ Unterstützte Formate
+
+- **Eingabe**: `PNG`, `JPG`, `JPEG`, `BMP`, `WEBP`, `TIFF`
+- **Ausgabe**: `PNG` mit **Alpha-Kanal** (transparenter Hintergrund)
+
+> Export erfolgt standardmäßig auf dem **Desktop** im Ordner `RemoveBG`.
+
+---
+
+## 🛠️ Voraussetzungen
+
+- **macOS** (empfohlen – läuft ggf. auch auf Linux/Windows)
+- **Python 3.9+**
+- Benötigte Pakete:
+  ```bash
+  pip install PySide6 pillow numpy scikit-image rembg
+  ```
+
 ![Promptgenerator](/bilder/Iconset.png)
 ![VisionLabeler](/bilder/VisionLabeler.png)
 
