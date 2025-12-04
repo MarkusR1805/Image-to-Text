@@ -157,7 +157,58 @@ Ob Foto, Porträt, Produktbild oder Anime: Wähle das passende Modell, optimiere
   pip install PySide6 pillow numpy scikit-image rembg
   ```
 
+## Tab Iconset erstellen
+
 ![Promptgenerator](/bilder/Iconset.png)
+
+**Erstelle professionelle macOS-Iconsets – lokal, schnell und mit Drag & Drop.**
+
+Mit **TabCreateIconset** generierst du aus einem beliebigen Bild ein vollständiges `.iconset`-Verzeichnis **und eine fertige `.icns`-Datei** – direkt auf deinem Mac. Das Tool nutzt **native macOS-Technologie** (`iconutil`) für maximale Kompatibilität mit Finder, Dock, Apps und DMG-Installationen.
+
+Kein Upload, kein Web-Service – alles läuft **100 % lokal**.
+
+---
+
+## 🍏 macOS-Integration
+
+Dieses Tool ist **ausschließlich für macOS** gedacht und nutzt:
+
+- **`iconutil`** – das offizielle Apple-Tool zur Konvertierung von `.iconset` → `.icns`
+- **Native PNG-Generierung** in allen benötigten Auflösungen:
+  - 16×16 bis 512×512 Pixel
+  - Jeweils mit **1x und 2x (Retina)** Skalierung
+- **Automatische `.icns`-Erstellung** – sofort verwendbar in:
+  - App-Bundles (`Contents/Resources/`)
+  - DMG-Images
+  - Dokumenten-Icons
+  - Dock und Finder
+
+> ⚠️ **Hinweis**: `iconutil` ist **nur auf macOS verfügbar**. Das Tool funktioniert **nicht unter Windows oder Linux**.
+
+---
+
+## ✨ Funktionen
+
+- **Drag & Drop** – ziehe ein Bild direkt in das Vorschaufenster
+- **Live-Vorschau** mit visuellem Feedback beim Ziehen
+- **Unterstützte Eingabeformate**: PNG, JPG, JPEG, TIFF, BMP, GIF
+- **Automatische Konvertierung** in transparentes RGBA (für saubere `.icns`-Dateien)
+- **Benennung frei wählbar** – z. B. `MeineApp.iconset`
+- **Standard-Export nach `~/Pictures/Iconset/`** – anpassbar per Button
+- **Ein-Klick-Generierung** – inklusive Validierung und Fehlermeldungen
+- **Dunkles UI** mit macOS-typischer Ästhetik
+
+---
+
+## 🛠️ Voraussetzungen
+
+- **macOS** (mindestens macOS 10.7+, da `iconutil` vorausgesetzt wird)
+- **Python 3.9+**
+- Benötigte Pakete:
+  ```bash
+  pip install PySide6 pillow
+  ```
+
 ![VisionLabeler](/bilder/VisionLabeler.png)
 
 ## Installation
