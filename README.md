@@ -26,6 +26,8 @@ Kurze Projektbeschreibung.
 
 ![Image-to-Text](/bilder/Image-to-Text.png)
 
+![Promptgenerator](/bilder/Promptgenerator.png)
+
 # TabPromptgenerator
 
 **Ein lokaler, datenschutzfreundlicher Prompt-Generator für Ollama-Modelle – speziell entwickelt für macOS.**
@@ -64,7 +66,6 @@ Mit dem **TabPromptgenerator** kannst du mühelos hochwertige Prompts für KI-Mo
   pip install PySide6 psutil
   ```
 
-![Promptgenerator](/bilder/Promptgenerator.png)
 ![Promptgenerator](/bilder/Remove-BG.png)
 ![Promptgenerator](/bilder/Iconset.png)
 ![VisionLabeler](/bilder/VisionLabeler.png)
