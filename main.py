@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 # image-to-text von Gerüstscript main.py
+
+__version__ = "5.2.0"   # Versionsnummer der App
+
 import sys
 from pathlib import Path
 from PySide6.QtWidgets import QApplication, QMainWindow, QTabWidget
@@ -29,7 +32,7 @@ from TabRemoveBGModels import TabRemoveBG
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Bilder und Prompt Toolbox 5.1.0 ")
+        self.setWindowTitle(f"Bilder und Prompt Toolbox {__version__} ")
         self.resize(980, 790)  # Startgröße, wird später ignoriert durch setFixedSize
 
         # 🔒 Fenstergröße fixieren
