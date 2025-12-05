@@ -1,7 +1,7 @@
 # Bilder und Prompt Toolbox
 
 ![Markus](/bilder/prinz5.jpg)
-Ein Bild von mir. Gotha 2009
+Ein Bild von mir, Gotha 2009
 _© 2025 Markus Rößler – Alle Rechte vorbehalten_
 
 ## Beschreibung
