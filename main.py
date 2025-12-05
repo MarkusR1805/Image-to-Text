@@ -29,7 +29,7 @@ from TabRemoveBGModels import TabRemoveBG
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Bilder und Prompt Toolbox 4.1 ")
+        self.setWindowTitle("Bilder und Prompt Toolbox 5.1.0 ")
         self.resize(980, 790)  # Startgröße, wird später ignoriert durch setFixedSize
 
         # 🔒 Fenstergröße fixieren
