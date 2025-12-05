@@ -6,7 +6,13 @@ _© 2025 Markus Rößler – Alle Rechte vorbehalten_
 
 ## Beschreibung
 
-Kurze Projektbeschreibung.
+Image-to-Text (ursprüngliche Funktion der App), ist mittlerweile zu einer Toolbox angewachsen mit 5 Funktionen.
+
+- Image-to-Text erstellt Prompts anhand eines Bildes
+- Promptgenerator erstellt aus Keywords Prompts
+- RemoveBackground stellt Motive frei
+- Iconset erstellen für eigene Icons von eigenen Bildern (Format 1:1)
+- VisionLabeler erstellt Bildbeschreibungen und man kann Trigger-Words angeben
 
 ![Beispielbild](/bilder/bild1.png)
 
