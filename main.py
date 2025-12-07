@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # image-to-text von Gerüstscript main.py
 
-__version__ = "5.1.0"   # Versionsnummer der App
+__version__ = "5.1.1"   # Versionsnummer der App
 
 import sys
 from pathlib import Path
@@ -27,7 +27,7 @@ from TabImageAnalyzer import TabImageAnalyzer   # ← Sucht nach TabImageAnalyze
 from TabPromptgenerator import TabPromptgenerator   # ← Sucht nach TabPromptgenerator.py und lädt die Klasse TabApp2
 from TabImageLabeln import TabImageLabeln   # ← Sucht nach TabImageLabeln.py und lädt die Klasse TabApp2
 from TabCreateIconset import TabCreateIconset  # TabCreatorIconset importieren
-from TabRemoveBGModels import TabRemoveBG
+from TabRemoveBGModels import TabRemoveBG  # RemoveBackground Tab importieren
 
 class MainWindow(QMainWindow):
     def __init__(self):
