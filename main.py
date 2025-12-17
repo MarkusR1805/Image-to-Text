@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # image-to-text von Gerüstscript main.py
 
-__version__ = "5.1.1"   # Versionsnummer der App
+__version__ = "6.0"   # Versionsnummer der App
 
 import sys
 from pathlib import Path
@@ -28,6 +28,7 @@ from TabPromptgenerator import TabPromptgenerator   # ← Sucht nach TabPromptge
 from TabImageLabeln import TabImageLabeln   # ← Sucht nach TabImageLabeln.py und lädt die Klasse TabApp2
 from TabCreateIconset import TabCreateIconset  # TabCreatorIconset importieren
 from TabRemoveBGModels import TabRemoveBG  # RemoveBackground Tab importieren
+from TabImageSplitter import TabImageSplitter
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -80,6 +81,9 @@ class MainWindow(QMainWindow):
 
         self.TabRemoveBG = TabRemoveBG()
         self.tabs.addTab(self.TabRemoveBG, "RemoveBackground")
+
+        self.TabImageSplitter = TabImageSplitter()
+        self.tabs.addTab(self.TabImageSplitter, "Bild-Splitter")
 
         self.TabCreateIconset = TabCreateIconset()  # ← Tab Icon-Set erstellen
         self.tabs.addTab(self.TabCreateIconset, "Iconset erstellen")
