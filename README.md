@@ -11,6 +11,7 @@ _© 2025 Markus Rößler – Alle Rechte vorbehalten_
 <div align="center">
   <p>
     <a href="#wichtig">Wichtig</a> •
+    <a href="#installation">Installation</a> <p>
     <a href="#image-to-text">Image-to-Text</a> •
     <a href="#promptgenerator">Promptgenerator</a> •
     <a href="#removebackground">RemoveBackground</a> •
@@ -33,6 +34,28 @@ Image-to-Text (ursprüngliche Funktion der App), ist mittlerweile zu einer Toolb
 ## Wichtig
 
 - Benötigt installiertes Ollama (am besten aktuelle Version)
+
+## Installation
+
+### Clone Repositorie
+
+Repositorie auf Festplatte klonen
+
+```sh
+git clone https://github.com/MarkusR1805/Image-to-Text.git
+```
+
+Virtuelle Python-Umgebung erstellen
+
+```sh
+python3 -m venv Image-to-Text
+```
+
+Bibliotheken installieren
+
+```sh
+pip install -r requirements.txt
+```
 
 ## Vorteile
 
