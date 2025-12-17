@@ -1,4 +1,4 @@
-# Bilder und Prompt Toolbox
+# Image-to-Text and more Toolbox
 
 ![Version](https://img.shields.io/badge/version-2.0.0-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-lightgrey)
