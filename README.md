@@ -33,6 +33,8 @@ Image-to-Text (ursprüngliche Funktion der App), ist mittlerweile zu einer Toolb
 
 ![Beispielbild](/bilder/bild1.png)
 
+---
+
 ## Wichtig
 
 - Benötigt installiertes Ollama (am besten aktuelle Version)
@@ -43,6 +45,8 @@ Image-to-Text (ursprüngliche Funktion der App), ist mittlerweile zu einer Toolb
 - Zugriff auf eine Vielzahl von Modellen
 
 ![Features](/bilder/icon.png)
+
+---
 
 ## Installation
 
@@ -62,7 +66,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## Beispiel-Tabelle
+### Beispiel-Tabelle
 
 | Name              | Typ                                  | Beschreibung             |
 | ----------------- | ------------------------------------ | ------------------------ |
@@ -72,6 +76,8 @@ python main.py
 | Iconset erstellen | Icons im ICNS-Format erstellen       | Mac interne Tools        |
 | VisionLabeler     | Labelt Bild in einem Verzeichnis     | Vision-Modelle           |
 
+---
+
 ## Image-to-Text
 
 ![Image-to-Text](/bilder/Image-to-Text.png)
@@ -79,8 +85,6 @@ python main.py
 **Lokale, visuelle KI-Analyse für Bilder – direkt auf deinem Mac. Keine Cloud, kein Tracking.**
 
 Der **TabImageAnalyzer** nutzt Ollamas Vision-fähige Modelle (z. B. `llava`, `llama3.2-vision`) zur **lokalen Bildbeschreibung und -interpretation**. Ziehe einfach ein Bild per Drag & Drop in das Fenster, gib eine Anweisung ein – und erhalte innerhalb von Sekunden eine präzise, KI-generierte Beschreibung **ohne Internetverbindung**.
-
----
 
 ## 🖼️ Was kann das Tool?
 
@@ -101,8 +105,6 @@ Der **TabImageAnalyzer** nutzt Ollamas Vision-fähige Modelle (z. B. `llava`, 
   - Große, gut lesbare Schrift
   - Dunkles UI mit Kontrast für bessere Lesbarkeit
 
----
-
 ## 🛠️ Voraussetzungen
 
 - **macOS** (empfohlen – läuft ggf. auch auf Linux/Windows)
@@ -113,6 +115,8 @@ Der **TabImageAnalyzer** nutzt Ollamas Vision-fähige Modelle (z. B. `llava`, 
   pip install PySide6 psutil ollama
   ```
 
+---
+
 ## Promptgenerator
 
 ![Promptgenerator](/bilder/Promptgenerator.png)
@@ -120,8 +124,6 @@ Der **TabImageAnalyzer** nutzt Ollamas Vision-fähige Modelle (z. B. `llava`, 
 **Ein lokaler, datenschutzfreundlicher Prompt-Generator für Ollama-Modelle – speziell entwickelt für macOS.**
 
 Mit dem **TabPromptgenerator** kannst du mühelos hochwertige Prompts für KI-Modelle von [Ollama](https://ollama.com/) erstellen – entweder basierend auf vordefinierten Anweisungen oder mit deinen eigenen, individuellen Eingaben. Alle Berechnungen laufen **lokal auf deinem Rechner**, ohne jegliche Cloud-Abhängigkeit.
-
----
 
 ## 🚀 Funktionen
 
@@ -142,8 +144,6 @@ Mit dem **TabPromptgenerator** kannst du mühelos hochwertige Prompts für KI-Mo
   - macOS-optimiertes Layout und Schriftskalierung.
 - **Ressourcenschonend**: Startet den Ollama-Server bei Bedarf und beendet überflüssige Prozesse automatisch.
 
----
-
 ## 🛠️ Voraussetzungen
 
 - **macOS** (primär entwickelt für macOS, läuft ggf. auch auf Linux/Windows)
@@ -154,6 +154,8 @@ Mit dem **TabPromptgenerator** kannst du mühelos hochwertige Prompts für KI-Mo
   pip install PySide6 psutil
   ```
 
+---
+
 ## RemoveBackground
 
 ![Promptgenerator](/bilder/Remove-BG.png)
@@ -163,8 +165,6 @@ Mit dem **TabPromptgenerator** kannst du mühelos hochwertige Prompts für KI-Mo
 Mit **Tab RemoveBackground** entfernst du Hintergründe **vollständig offline** auf deinem Mac. Das Tool nutzt hochmoderne, lokal laufende KI-Modelle wie `birefnet`, `isnet` oder `u2net`, um Personen, Produkte oder Objekte blitzschnell freizustellen – **alle Daten bleiben auf deinem Gerät**.
 
 Ob Foto, Porträt, Produktbild oder Anime: Wähle das passende Modell, optimiere die Kanten und exportiere sofort als transparentes PNG.
-
----
 
 ## ✂️ Hauptfunktionen
 
@@ -186,16 +186,12 @@ Ob Foto, Porträt, Produktbild oder Anime: Wähle das passende Modell, optimiere
   - Echtzeit-Vorschau über Originalbild
   - Pinselgröße anpassbar
 
----
-
 ## 🖼️ Unterstützte Formate
 
 - **Eingabe**: `PNG`, `JPG`, `JPEG`, `BMP`, `WEBP`, `TIFF`
 - **Ausgabe**: `PNG` mit **Alpha-Kanal** (transparenter Hintergrund)
 
 > Export erfolgt standardmäßig auf dem **Desktop** im Ordner `RemoveBG`.
-
----
 
 ## 🛠️ Voraussetzungen
 
@@ -226,8 +222,6 @@ _Ideales Tool für KI-Training (neu Dezember 2025)_
 - ✅ Ausgabe als **JPG mit 80% Qualität** (optimal für KI-Training)
 - ✅ Unterstützte Formate: **PNG, JPG, JPEG, WebP**
 
----
-
 ## 🎯 Wofür ist das Tool gedacht?
 
 Viele KI-Bildgeneratoren (z. B. Stable Diffusion) benötigen **quadratische Eingabebilder**.
@@ -238,8 +232,6 @@ Mit Splitter-Image kannst du:
 - Manuelles Zuschneiden vermeiden
 - Qualität und Seitenverhältnis sicher bewahren
 
----
-
 ## 🖥️ Benutzeroberfläche
 
 | Bereich              | Funktion                                                  |
@@ -249,8 +241,6 @@ Mit Splitter-Image kannst du:
 | **Zielordner**       | Lege das Ausgabeverzeichnis fest                          |
 | **Vorschau**         | Sieh dir alle Bilder mit korrekter Orientierung an        |
 | **Verarbeiten**      | Starte den Export mit einem Klick                         |
-
----
 
 ## 📁 Ausgabe-Beispiel
 
@@ -283,8 +273,6 @@ Mit **Tab Iconset erstellen** generierst du aus einem beliebigen Bild ein vollst
 
 Kein Upload, kein Web-Service – alles läuft **100 % lokal**.
 
----
-
 ## 🍏 macOS-Integration
 
 Dieses Tool ist **ausschließlich für macOS** gedacht und nutzt:
@@ -301,8 +289,6 @@ Dieses Tool ist **ausschließlich für macOS** gedacht und nutzt:
 
 > ⚠️ **Hinweis**: `iconutil` ist **nur auf macOS verfügbar**. Das Tool funktioniert **nicht unter Windows oder Linux**.
 
----
-
 ## ✨ Funktionen
 
 - **Drag & Drop** – ziehe ein Bild direkt in das Vorschaufenster
@@ -313,8 +299,6 @@ Dieses Tool ist **ausschließlich für macOS** gedacht und nutzt:
 - **Standard-Export nach `~/Pictures/Iconset/`** – anpassbar per Button
 - **Ein-Klick-Generierung** – inklusive Validierung und Fehlermeldungen
 - **Dunkles UI** mit macOS-typischer Ästhetik
-
----
 
 ## 🛠️ Voraussetzungen
 
