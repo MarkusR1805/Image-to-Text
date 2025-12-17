@@ -15,6 +15,8 @@ _© 2025 Markus Rößler – Alle Rechte vorbehalten_
     <a href="#image-to-text">Image-to-Text</a> •
     <a href="#promptgenerator">Promptgenerator</a> •
     <a href="#removebackground">RemoveBackground</a> •
+    <a href="#image-splitter">Image-Splitter</a> •
+    <a href="#visionlabeler">VisionLabeler</a> •
     <a href="#iconset">Iconset</a>
   </p>
 </div>
@@ -204,6 +206,73 @@ Ob Foto, Porträt, Produktbild oder Anime: Wähle das passende Modell, optimiere
   pip install PySide6 pillow numpy scikit-image rembg
   ```
 
+---
+
+## Image-Splitter
+
+![Image-Splitter](/bilder/image-splitter.png)
+_Ideales Tool für KI-Training (neu Dezember 2025)_
+
+**Image-Splitter** ist ein benutzerfreundliches Desktop-Tool, das hochauflösende Bilder automatisch in **drei quadratische Ausschnitte** unterteilt – ideal für das Training von KI-Modellen wie Stable Diffusion, LoRA oder DreamBooth. Mit Drag & Drop, Echtzeit-Vorschau und Batch-Verarbeitung.
+
+## 🔧 Hauptfunktionen
+
+- ✅ **Automatischer Splitting-Modus**
+  - **Hochformat**: Oben – Mitte – Unten
+  - **Querformat**: Links – Mitte – Rechts
+- ✅ **Farbgetreue, verzerrungsfreie Vorschau** mit korrektem Seitenverhältnis
+- ✅ **Drag & Drop**-Unterstützung
+- ✅ **Batch-Verarbeitung** vieler Bilder auf einmal
+- ✅ Ausgabe als **JPG mit 80% Qualität** (optimal für KI-Training)
+- ✅ Unterstützte Formate: **PNG, JPG, JPEG, WebP**
+
+---
+
+## 🎯 Wofür ist das Tool gedacht?
+
+Viele KI-Bildgeneratoren (z. B. Stable Diffusion) benötigen **quadratische Eingabebilder**.
+Mit Splitter-Image kannst du:
+
+- Hochauflösende Fotos in mehrere Trainingsbeispiele aufteilen
+- Datensätze effizient standardisieren (z. B. auf 1024×1024 px)
+- Manuelles Zuschneiden vermeiden
+- Qualität und Seitenverhältnis sicher bewahren
+
+---
+
+## 🖥️ Benutzeroberfläche
+
+| Bereich              | Funktion                                                  |
+| -------------------- | --------------------------------------------------------- |
+| **Einstellungen**    | Wähle die Ausschnittgröße (256–4096 px, Schrittweite 128) |
+| **Bilder auswählen** | Füge Dateien per Dateiauswahl oder Drag & Drop hinzu      |
+| **Zielordner**       | Lege das Ausgabeverzeichnis fest                          |
+| **Vorschau**         | Sieh dir alle Bilder mit korrekter Orientierung an        |
+| **Verarbeiten**      | Starte den Export mit einem Klick                         |
+
+---
+
+## 📁 Ausgabe-Beispiel
+
+**Eingabe**:
+`portrait.png`
+
+**Ausgabe im Zielordner**:
+portrait_top.jpg
+portrait_center.jpg
+portrait_bottom.jpg
+
+**Bei Querformat**
+`landscape.jpg`
+
+landscape_left.jpg
+landscape_center.jpg
+landscape_right.jpg
+
+Alle Dateien werden als **JPG mit 80% Qualität** gespeichert – ideal für KI-Training.
+
+---
+
 ## Iconset
 
 ![Promptgenerator](/bilder/Iconset.png)
@@ -256,7 +325,9 @@ Dieses Tool ist **ausschließlich für macOS** gedacht und nutzt:
   pip install PySide6 pillow
   ```
 
-## Tab VisionLabeler
+---
+
+## VisionLabeler
 
 ![VisionLabeler](/bilder/VisionLabeler.png)
 
