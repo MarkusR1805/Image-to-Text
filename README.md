@@ -15,7 +15,7 @@ _© 2025 Markus Rößler – Alle Rechte vorbehalten_
     <a href="#image-to-text">Image-to-Text</a> •
     <a href="#promptgenerator">Promptgenerator</a> •
     <a href="#removebackground">RemoveBackground</a> •
-    <a href="#image-splitter">Image-Splitter</a> •
+    <a href="#bild-splitter">Bild-Splitter</a> •
     <a href="#visionlabeler">VisionLabeler</a> •
     <a href="#iconset">Iconset</a>
   </p>
@@ -208,7 +208,7 @@ Ob Foto, Porträt, Produktbild oder Anime: Wähle das passende Modell, optimiere
 
 ---
 
-## Image-Splitter
+## Bild-Splitter
 
 ![Image-Splitter](/bilder/image-splitter.png)
 _Ideales Tool für KI-Training (neu Dezember 2025)_
