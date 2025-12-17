@@ -1,7 +1,7 @@
 # Bilder und Prompt Toolbox
 
 ![Version](https://img.shields.io/badge/version-2.0.0-blue)
-![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows-lightgrey)
+![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-lightgrey)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ![Markus](/bilder/prinz5.jpg)
