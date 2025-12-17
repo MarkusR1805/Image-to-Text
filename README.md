@@ -35,34 +35,30 @@ Image-to-Text (ursprüngliche Funktion der App), ist mittlerweile zu einer Toolb
 
 - Benötigt installiertes Ollama (am besten aktuelle Version)
 
-## Installation
-
-### Clone Repositorie
-
-Repositorie auf Festplatte klonen
-
-```sh
-git clone https://github.com/MarkusR1805/Image-to-Text.git
-```
-
-Virtuelle Python-Umgebung erstellen
-
-```sh
-python3 -m venv Image-to-Text
-```
-
-Bibliotheken installieren
-
-```sh
-pip install -r requirements.txt
-```
-
 ## Vorteile
 
 - Modelle lokal nutzen
 - Zugriff auf eine Vielzahl von Modellen
 
 ![Features](/bilder/icon.png)
+
+## Installation
+
+### Virtuelle Python-Umgebung erstellen
+
+```sh
+git clone https://github.com/MarkusR1805/Image-to-Text.git
+python -m venv Image-to-Text
+cd Image-to-Text
+source bin/activate
+pip install -r requirements.txt
+```
+
+### Programm starten
+
+```sh
+python main.py
+```
 
 ## Beispiel-Tabelle
 
