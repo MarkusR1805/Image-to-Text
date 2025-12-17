@@ -1,5 +1,9 @@
 # Bilder und Prompt Toolbox
 
+![Version](https://img.shields.io/badge/version-2.0.0-blue)
+![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 ![Markus](/bilder/prinz5.jpg)
 Ein Bild von mir, Gotha 2009
 _© 2025 Markus Rößler – Alle Rechte vorbehalten_

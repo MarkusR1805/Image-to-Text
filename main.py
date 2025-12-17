@@ -83,7 +83,7 @@ class MainWindow(QMainWindow):
         self.tabs.addTab(self.TabRemoveBG, "RemoveBackground")
 
         self.TabImageSplitter = TabImageSplitter()
-        self.tabs.addTab(self.TabImageSplitter, "Bild-Splitter")
+        self.tabs.addTab(self.TabImageSplitter, "Image-Splitter")
 
         self.TabCreateIconset = TabCreateIconset()  # ← Tab Icon-Set erstellen
         self.tabs.addTab(self.TabCreateIconset, "Iconset erstellen")
