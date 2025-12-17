@@ -8,6 +8,16 @@
 Ein Bild von mir, Gotha 2009
 _© 2025 Markus Rößler – Alle Rechte vorbehalten_
 
+<div align="center">
+  <p>
+    <a href="#wichtig">Wichtig</a> •
+    <a href="#image-to-text">Image-to-Text</a> •
+    <a href="#promptgenerator">Promptgenerator</a> •
+    <a href="#removebackground">RemoveBackground</a> •
+    <a href="#iconset">Iconset</a>
+  </p>
+</div>
+
 ## Beschreibung
 
 Image-to-Text (ursprüngliche Funktion der App), ist mittlerweile zu einer Toolbox angewachsen mit 5 Funktionen.
@@ -20,9 +30,12 @@ Image-to-Text (ursprüngliche Funktion der App), ist mittlerweile zu einer Toolb
 
 ![Beispielbild](/bilder/bild1.png)
 
-## Features
+## Wichtig
 
-- Benötigt installiertes Ollama
+- Benötigt installiertes Ollama (am besten aktuelle Version)
+
+## Vorteile
+
 - Modelle lokal nutzen
 - Zugriff auf eine Vielzahl von Modellen
 
@@ -38,7 +51,7 @@ Image-to-Text (ursprüngliche Funktion der App), ist mittlerweile zu einer Toolb
 | Iconset erstellen | Icons im ICNS-Format erstellen       | Mac interne Tools        |
 | VisionLabeler     | Labelt Bild in einem Verzeichnis     | Vision-Modelle           |
 
-## Tab Image-to-Text
+## Image-to-Text
 
 ![Image-to-Text](/bilder/Image-to-Text.png)
 
@@ -79,7 +92,7 @@ Der **TabImageAnalyzer** nutzt Ollamas Vision-fähige Modelle (z. B. `llava`, 
   pip install PySide6 psutil ollama
   ```
 
-## Tab Promptgenerator
+## Promptgenerator
 
 ![Promptgenerator](/bilder/Promptgenerator.png)
 
@@ -120,7 +133,7 @@ Mit dem **TabPromptgenerator** kannst du mühelos hochwertige Prompts für KI-Mo
   pip install PySide6 psutil
   ```
 
-## Tab RemoveBackground
+## RemoveBackground
 
 ![Promptgenerator](/bilder/Remove-BG.png)
 
@@ -172,7 +185,7 @@ Ob Foto, Porträt, Produktbild oder Anime: Wähle das passende Modell, optimiere
   pip install PySide6 pillow numpy scikit-image rembg
   ```
 
-## Tab Iconset erstellen
+## Iconset
 
 ![Promptgenerator](/bilder/Iconset.png)
 
