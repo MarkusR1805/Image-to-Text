@@ -34,7 +34,6 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle(f"Bilder und Prompt Toolbox {__version__} ")
-        self.resize(980, 790)  # Startgröße, wird später ignoriert durch setFixedSize
 
         # 🔒 Fenstergröße fixieren
         self.setFixedSize(980, 790)
