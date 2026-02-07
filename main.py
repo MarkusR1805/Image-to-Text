@@ -6,7 +6,7 @@ __version__ = "6.0"   # Versionsnummer der App
 import sys
 from pathlib import Path
 from PySide6.QtWidgets import QApplication, QMainWindow, QTabWidget
-from PySide6.QtGui import QPixmap, QTextOption, QFont
+from PySide6.QtGui import QFont
 
 # Datei der Testversion – soll gelöscht werden, falls vorhanden
 START_FILE = Path.home() / '.dzitt'
