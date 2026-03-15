@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # image-to-text von Gerüstscript main.py
 
-__version__ = "6.0.1"   # Versionsnummer der App
+__version__ = "6.0.2"   # Versionsnummer der App
 
 import sys
 from pathlib import Path
