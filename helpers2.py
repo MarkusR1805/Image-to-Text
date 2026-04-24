@@ -11,6 +11,15 @@ from typing import List, Optional, Tuple
 import shutil
 from pathlib import Path
 import psutil
+import re
+
+def strip_ansi_codes(text: str) -> str:
+    """
+    Entfernt ANSI-Escape-Sequenzen (Farben, Cursor-Bewegungen,
+    Fortschrittsbalken-Steuerung) aus einem String.
+    """
+    ansi_escape = re.compile(r'\x1B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~])')
+    return ansi_escape.sub('', text)
 
 DEFAULT_MODEL = "llama2:latest"  # Standard-Modellname (passend zu Ollama)
 
@@ -102,11 +111,18 @@ def generate_ollama_prompt(instruction: str, user_terms: str, model: str) -> str
             command,
             capture_output=True,
             text=True,
-            check=True
+            check=True,
+            stdin=subprocess.DEVNULL  # ← Wichtig: Verhindert TTY-Erkennung → weniger ANSI-Codes
         )
-        return result.stdout.strip()
+
+        # ANSI-Codes entfernen, bevor der Text zurückgegeben wird
+        cleaned_output = strip_ansi_codes(result.stdout)
+        return cleaned_output.strip()
+
     except subprocess.CalledProcessError as e:
-        raise RuntimeError(f"Ollama-Fehler: {e.stderr}") from e
+        # Auch stderr bereinigen, falls Fehlermeldungen ANSI-Codes enthalten
+        cleaned_stderr = strip_ansi_codes(e.stderr)
+        raise RuntimeError(f"Ollama-Fehler: {cleaned_stderr}") from e
     except Exception as e:
         raise RuntimeError(f"Unbekannter Fehler: {str(e)}") from e
 
